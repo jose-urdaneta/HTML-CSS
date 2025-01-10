@@ -1,0 +1,15 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: salmon;
+    margin: 5px;
+    /*display: inline-block;*/
+}

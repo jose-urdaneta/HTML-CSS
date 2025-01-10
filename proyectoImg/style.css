@@ -1,0 +1,51 @@
+#contenedor{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(3, 84, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenedor > div{
+    text-align: center;
+    width: 900px;
+    height: 180px;
+}
+
+.b1{
+    background-color: rgb(231, 177, 0);
+}
+
+.b1 > img{
+    background-color: rgb(231, 177, 0);
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px 5px 5px 5px;
+}
+
+.b2{
+    background-color: lightskyblue;
+}
+
+.b2 > img{
+    background-color: rgb(231, 177, 0);
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px 5px 5px 5px;
+}
+
+.b3{
+    background-color: lightcoral;
+}
+
+.b3 > img{
+    background-color: rgb(231, 177, 0);
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px 5px 5px 5px;
+}
+
