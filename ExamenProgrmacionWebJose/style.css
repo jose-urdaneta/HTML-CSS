@@ -1,0 +1,163 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  border: solid black 3px;
+  align-items: center;
+}
+
+.h1Header {
+  margin: 10px;
+  font-size: 60px;
+}
+
+.btnsHeader {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: end;
+  margin: 20px;
+}
+
+.btnheader1 {
+  margin: 10px;
+  width: 200px;
+  background-color: darkblue;
+  box-shadow: 0 8px 16px 0 black;
+  color: white;
+}
+
+.btnheader2 {
+  margin: 10px;
+  width: 100px;
+  background-color: lightblue;
+  box-shadow: 0 8px 16px 0 black;
+  color: black;
+}
+
+#mainNav {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#mainNav > div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.divMainNav > label {
+  font-size: 30px;
+}
+
+.divMainNav > image {
+  width: 40px;
+  height: 40px;
+}
+
+#subNav {
+  display: flex;
+  height: 80px;
+  background-color: skyblue;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divSubNav {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divSubNav:hover {
+  color: blue;
+}
+
+#sectionHeader {
+  display: flex;
+  height: 100px;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main > div {
+  display: flex;
+  border: solid 1px lightblue;
+  background-color: lightgrey;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#container1 > img {
+  width: 400px;
+  height: 350px;
+  padding: 10px;
+}
+
+#container2 > img {
+  width: 400px;
+  height: 350px;
+  padding: 10px;
+}
+
+#container3 > img {
+  width: 400px;
+  height: 350px;
+  padding: 10px;
+}
+
+#container1 > .btnRentar {
+  margin: 10px;
+  align-self: center;
+  width: 100px;
+  background-color: lightblue;
+  box-shadow: 0 8px 16px 0 black;
+  color: black;
+}
+
+#container2 > .btnRentar {
+  margin: 10px;
+  align-self: center;
+  width: 100px;
+  background-color: lightblue;
+  box-shadow: 0 8px 16px 0 black;
+  color: black;
+}
+
+#container3 > .btnRentar {
+  margin: 10px;
+  margin-bottom: 20pxs;
+  align-self: center;
+  width: 100px;
+  background-color: lightblue;
+  box-shadow: 0 8px 16px 0 black;
+  color: black;
+}
+
+.segundaLinea {
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  height: 80px;
+  background-color: midnightblue;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  margin-top: -15px;
+}
